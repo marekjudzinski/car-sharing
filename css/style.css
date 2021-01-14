@@ -19,3 +19,35 @@ body{
     max-width: 1088px;
     margin: 0 auto;
 }
+
+
+/*/header/*/
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100000;
+    height: 90px;
+    background: rgba(0,0,0,0.4);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.header__container{}
+
+.logo{}
+.logo img{}
+.logo span{}
+
+.menu{}
+.menu__list{}
+.menu__el{}
+.menu__link{}
+
+/*/hero/*/
+.hero{
+    background-image: url(../images/image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
