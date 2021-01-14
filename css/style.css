@@ -305,3 +305,70 @@ body{
     transform: translate(-50%, 50%);
 }
 
+
+/*form*/
+.form{
+    max-width: 1130px;
+    margin: 0 auto;
+    padding-left: calc(50% + 16px);
+    background-image: url("/car-sharing/images/form-photo.png");
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+
+}
+.form label:not(.form.checkbox){
+    position: absolute;
+    left: -99999px;
+}
+.form-row{
+    margin-bottom: 20px;
+}
+.form-input{
+    height: 38px;
+    border: 1px solid #d1d1d1;
+    border-radius: 6px;
+    padding: 0 15px;
+    width: 100%;
+}
+textarea.form-input{
+    height: 140px;
+    padding: 15px;
+    resize: none;
+}
+
+.form-input:focus{
+    outline: none;
+    border-color: var(--color);
+    box-shadow: 0 1px 6px rgba(255,0,0,0.3);
+}
+.form-checkbox{}
+.form-checkbox input{
+    width: 22px;
+    height: 22px;
+    border: 1px solid #d1d1d1;
+    border-radius: 6px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.form-checkbox input:checked{
+    background-image: url("/car-sharing/images/icon-check.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.form-btn{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    display: inline-flex;
+    color: var(--color);
+    background: #fff;
+    padding: 14px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(255,0,0,0.3);
+    max-width: 142px;
+    justify-content: center;
+}
+
